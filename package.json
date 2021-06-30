@@ -1,0 +1,20 @@
+{
+  "name": "6turtles",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "chevrotain": "^9.0.1",
+    "readline-sync": "^1.4.10",
+    "yargs": "^17.0.1"
+  },
+  "bin": {
+    "6t": "./bin/index.js"
+  }
+}

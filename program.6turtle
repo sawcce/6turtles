@@ -1,0 +1,9 @@
+INDEX is Turtle
+
+CONDOWN is normal (
+  PRIN wake up! with INDEX in mind 🐢
+  INDEX ➖➖
+)
+
+CONDOWN wake up! until not INDEX equals T 🐢
+PRIN wake up! with A in mind 🐢
