@@ -71,3 +71,53 @@ so ```🐢exu🐢``` means 5 / 1
 
 ## Functions
 
+### Basic Call
+To call a function:
+
+```
+FUNCTION wake up! 🐢
+```
+
+### Argumented Call
+
+To pass it an argument:
+
+```
+FUNCTION wake up! with value in mind🐢
+```
+
+To pass it an arguments:
+
+```
+FUNCTION wake up! with value and value in mind🐢
+```
+
+### Conditional Call
+
+```
+This will run a function until the given condition is false
+FUNCTION wake up! until condition🐢
+```
+
+### Conditions
+
+#### Equals
+```
+ value equals expression
+```
+
+#### Not
+
+This syntax is the equivalent of the ! operator in js (it makes false true and true false)
+
+```
+not condition
+```
+
+### Combining both
+
+If you want to use arguments and a condition, use this order:
+
+```
+FUNCTION wake up! ARGS UNTIL🐢
+```
