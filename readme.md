@@ -55,3 +55,20 @@ Where number is a Valid 6turtles base-6 number like ``eurl`` or ``luT``
 ## Complex types
 
 ### Turtle expression
+
+A turtle expression is a way to modify a value with another
+
+``🐢expression operand expression🐢``
+
+The different operands are:
+    - U = division
+    - s = multiplication
+    - the ➕ emoji = addition
+    - the ➖ emoji = substraction
+    - the 👎 emoji = decreases the ascii value of an entire string
+    - the 👍 emoji = increases the ascii value of an entire string
+
+so ```🐢exu🐢``` means 5 / 1
+
+## Functions
+
