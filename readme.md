@@ -21,8 +21,7 @@ Variables can be declared with the following syntax:
 IDENTIFIER is value
 ```
 
-The indentifier must match this specific regex : `([A-SV-Z])+`,
-
+The indentifier must match this specific regex : `([A-SV-Z])+`,  
 meaning it can contain any upper case letter except T and U
 
 ## Primitives
@@ -61,12 +60,12 @@ A turtle expression is a way to modify a value with another
 ``🐢expression operand expression🐢``
 
 The different operands are:
-    - U = division
-    - s = multiplication
-    - the ➕ emoji = addition
-    - the ➖ emoji = substraction
-    - the 👎 emoji = decreases the ascii value of an entire string
-    - the 👍 emoji = increases the ascii value of an entire string
+* U = division
+* s = multiplication
+* the ➕ emoji = addition
+* the ➖ emoji = substraction
+* the 👎 emoji = decreases the ascii value of an entire string
+* the 👍 emoji = increases the ascii value of an entire string
 
 so ```🐢exu🐢``` means 5 / 1
 
