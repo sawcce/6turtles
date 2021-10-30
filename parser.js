@@ -437,58 +437,6 @@ class Parser extends EmbeddedActionsParser {
 
     this.performSelfAnalysis();
   }
-
-  expressionExcept(exception) {
-    const $ = this;
-
-    $.RULE("expressionExcept" + exception, () => {
-      let val;
-
-      console.log("Except", exception);
-
-      let others = {
-        binaryExpression: {
-          ALT: () => {
-            val = $.SUBRULE2($.binaryExpression);
-          },
-        },
-        function: {
-          ALT: () => {
-            val = $.SUBRULE($.function);
-          },
-        },
-        functionCall: {
-          ALT: () => {
-            val = $.SUBRULE2($.functionCall);
-          },
-        },
-        not: {
-          ALT: () => {
-            val = $.SUBRULE($.not);
-          },
-        },
-      };
-
-      if (typeof exception !== "undefined") {
-        console.log(exception, typeof exception === "undefined");
-        delete others[exception];
-      }
-
-      let final = [
-        ...Object.values(others),
-        {
-          ALT: () => {
-            val = $.SUBRULE1($.value);
-          },
-        },
-      ];
-
-      console.log(Object.keys(others));
-
-      $.OR(final);
-      return val;
-    });
-  }
 }
 
 function parseInput(text) {
