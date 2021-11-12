@@ -67,7 +67,7 @@ The different operands are:
 * the 👎 emoji = decreases the ascii value of an entire string
 * the 👍 emoji = increases the ascii value of an entire string
 
-so ```🐢exu🐢``` means 5 / 1
+so ```🐢eUx🐢``` means 5 / 1
 
 ## Functions
 
