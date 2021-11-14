@@ -92,6 +92,8 @@ To pass it an arguments:
 FUNCTION wake up! with value and value in mind🐢
 ```
 
+Where value is either a string, a number or a variable
+
 ### Conditional Call
 
 ```

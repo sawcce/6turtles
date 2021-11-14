@@ -62,6 +62,8 @@ class Interpreter {
       PRIN: (args) => {
         console.log(args.evluateMultiple(this.data));
       },
+      ASK: (args) => {
+      },
     };
 
     this.defaultExec = (action) => {
