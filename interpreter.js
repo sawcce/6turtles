@@ -26,7 +26,7 @@ function evaluate(value, data) {
     case "Addition":
       return evaluate(value.left, data) + evaluate(value.right, data);
       break;
-    case "Division":
+    case "Substraction":
       return evaluate(value.left, data) - evaluate(value.right, data);
       break;
     case "Multiplication":
